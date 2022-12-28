@@ -1,0 +1,27 @@
+{
+  "name": "babel-plugin-await-add-try-catch",
+  "version": "1.0.0",
+  "description": "a babel plugin which can add try catch block statement in async await",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forturegrant/babel-plugin-await-add-try-catch.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin"
+  ],
+  "author": "forturegrant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forturegrant/babel-plugin-await-add-try-catch/issues"
+  },
+  "homepage": "https://github.com/forturegrant/babel-plugin-await-add-try-catch#readme",
+  "dependencies": {
+    "babel-template": "^6.26.0",
+    "deepmerge": "^4.2.2"
+  }
+}
